@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lag="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Register Business</title>
+        <link rel="stylesheet" href="/index.3a01df49.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
+        <script src="/register_business.d817d16e.js" defer=""></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+        <script src="https://npmcdn.com/js-alert/dist/jsalert.min.js"></script>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e3f2fd !important;">
+            <div class="container container-fluid">
+              <a class="navbar-brand" href="/index.html">Blockchain E-Commerce</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active border-bottom border-danger" href="/register_business.html">Register Business</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/all_businesses.html">All Business</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/my_businesses.html">My Business</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/my_shareheld_businesses.html">My Shareheld Businesses</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/make_payment.html">Make Payment</a>
+                  </li>
+                  <li class="nav-item" style="display:none">
+                    <a class="nav-link disabled" href="/view_business.html">Make Payment</a>
+                  </li>
+                  <li class="nav-item" style="display:none">
+                    <a class="nav-link disabled" href="/view_shareheld_business.html">Shareheld business</a>
+                  </li>
+                </ul>
+                <span id="account" class="navbar-text"></span>
+              </div>
+            </div>
+          </nav>
+
+        <div class="container" style="max-width: 840px; margin-top: 32px;">
+            <div>
+                <h3 class="text-center">Register your business</h3>
+            </div>           
+        </div>
+
+        <div class="container" style="max-width: 840px; margin-top: 32px;">
+            <form>
+                <div class="row mb-3">
+                    <label for="inputBusinessName" class="col-sm-2 col-form-label">Business Name</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputBusinessName">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputBusinessDescription" class="col-sm-2 col-form-label">Description</label>
+                    <div class="col-sm-10">
+                        <textarea class="form-control" id="inputBusinessDescription" rows="3"></textarea>
+
+                    </div>
+                </div>
+              </form>
+              <button id="registerButton" class="btn btn-primary">Register</button>
+        </div>
+        
+        
+
+        
+    </body>
+</html>
